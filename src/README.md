@@ -3,7 +3,19 @@ Sample Selgp Saucelabs Tests project
 
 In order to run the tests, you will need to install [Apache Maven](http://maven.apache.org), and Appium (according to the Appium [installation instructions](https://github.com/appium/appium).
 
-To compile the test package run:
+Checkout this repo from Github
+
+    git clone git@github.com:guillemhs/opensauce-selgp.git
+
+Go to the folder where have checkout the code from opensauce selgp and compile it locally using this command:
+
+    mvn -U clean install
+
+Check out this repo from GitHub:
+
+    git clone git@github.com:guillemhs/opensauce-selgp-webdriver.git
+
+Go to the main folder of opensauce-selgp-webdriver and then compile the test package running the following command:
 
     mvn -U clean install compile assembly:single
 
