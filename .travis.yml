@@ -1,0 +1,2 @@
+language: java
+install: mvn -U clean install compile assembly:single
