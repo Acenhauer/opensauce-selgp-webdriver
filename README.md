@@ -1,8 +1,7 @@
-Sample Selgp Saucelabs Tests project
+Sample Selgp Saucelabs Webdriver Tests
 ---
 
-In order to run the tests from this repo, you will need to install [Apache Maven](http://maven.apache.org), and Appium (according to the Appium [installation instructions](https://github.com/appium/appium).
-
+In order to run the tests from this repo, you will need to install [Apache Maven](http://maven.apache.org), and WebDriver. 
 Checkout this repo from Github
 
     git clone git@github.com:guillemhs/opensauce-selgp.git
