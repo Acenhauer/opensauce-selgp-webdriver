@@ -15,10 +15,6 @@ Check out this repo from GitHub:
 
     git clone git@github.com:guillemhs/opensauce-selgp-webdriver.git
 
-Go to the main folder of opensauce-selgp-webdriver and then compile the test package running the following command:
-
-    mvn -U clean install compile assembly:single
-
 To run the whole suite on Saucelabs using FF:
 
     mvn -Dhub=http://YOUR_SAUCE_USER:YOUR_SAUCE_API_KEY@ondemand.saucelabs.com:80/wd/hub
