@@ -1,14 +1,7 @@
 Sample Selgp Saucelabs Webdriver Tests
 ---
 
-In order to run the tests from this repo, you will need to install [Apache Maven](http://maven.apache.org), and WebDriver. 
-Checkout this repo from Github
-
-    git clone git@github.com:guillemhs/opensauce-selgp.git
-
-Go to the folder where have checkout the code from opensauce selgp and compile it locally using this command:
-
-    mvn -U clean install
+In order to run the tests from this repo, you will need to install [Apache Maven](http://maven.apache.org), and WebDriver.
 
 Check out this repo from GitHub:
 
