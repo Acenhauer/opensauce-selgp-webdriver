@@ -23,7 +23,7 @@ public class RegisterFailsWithoutNameTest extends BaseDemoTest {
 		Map<String, String> userDetails = createRandomUser();
 		userDetails.put("name", "");
 		doRegister(userDetails, false);
-		Assert.assertEquals("Message not found", "Please enter a value", driver()
+		Assert.assertEquals("Please enter a value", driver()
                 .findElement(By.cssSelector(".error")).getText());
 	}
 }

@@ -43,7 +43,7 @@ public abstract class BaseDemoTest extends BaseWebDriverTest {
 
     private void doLogout() {
         driver().get("http://tutorialapp.saucelabs.com/logout");
-        Assert.assertEquals("Message not found", "Logged out successfully.", driver()
+        Assert.assertEquals("Logged out successfully.", driver()
                 .findElement(By.id("message")).getText());
     }
 
@@ -61,7 +61,7 @@ public abstract class BaseDemoTest extends BaseWebDriverTest {
         driver().findElement(By.name("login")).sendKeys(username);
         driver().findElement(By.name("password")).sendKeys(password);
         driver().findElement(By.cssSelector("input.login")).click();
-        Assert.assertEquals("Message not found", "Logged in successfully.", driver()
+        Assert.assertEquals("Logged in successfully.", driver()
                 .findElement(By.id("message")).getText());
     }
 }
